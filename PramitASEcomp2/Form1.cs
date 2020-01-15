@@ -34,8 +34,8 @@ namespace PramitASEcomp2
        
         public object Validator
         {
-            get;
-            set;
+           // get;
+           // set;
         }
         /// <summary>
         /// Initializing the form

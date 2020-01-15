@@ -203,7 +203,7 @@ namespace PramitASEcomp2
             { string[] k = { "endif" }; blockCommand = k; }
             else if (send[0].ToUpper() == "ENDMETHOD")//function that converts given lower case alphabets into upper case.
             { string[] k = { "endmethod" }; blockCommand = k; }
-            else if (send[0].ToUpper() == "IF")
+            else if (send[0].ToUpper() == "IF")//function that converts given lower case alphabets into upper case.
             {
                 if (send.Length == 4)
                 {

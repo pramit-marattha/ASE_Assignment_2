@@ -154,7 +154,16 @@ namespace Test1.UnitTests
             Assert.AreEqual(result[0], "iferror");
 
         }
-        
+        /// <summary>
+        /// testing if by giving correct value
+        /// </summary>
+        [TestMethod]
+        public void IfStatementCorrectValueCheck()
+        {
+            var v = new Check();
+            string[] result = v.getValidate("if radius = 10");
+            Assert.AreEqual(result[0], "ifr");
+        }
         
         
         

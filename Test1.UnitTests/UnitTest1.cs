@@ -147,22 +147,17 @@ namespace Test1.UnitTests
         /// testing if by giving wrong value
         /// </summary>
         [TestMethod]
-        public void IfWrongValueCheck()
+        public void IfStatementWrongValueCheck()
         {
             var v = new Check();
             string[] result = v.getValidate("if 40 40");
             Assert.AreEqual(result[0], "iferror");
 
         }
-        /// <summary>
-        /// testing if by giving correct value
-        /// </summary>
-        [TestMethod]
-        public void IfCorrectValueCheck()
-        {
-            var v = new Check();
-            string[] result = v.getValidate("if radius = 10");
-            Assert.AreEqual(result[0], "ifr");
-        }
+        
+        
+        
+        
+        
     }
 }

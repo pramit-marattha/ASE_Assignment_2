@@ -220,7 +220,7 @@ namespace PramitASEcomp2
                 if (result[0] == "radiuserror")
                 { MessageBox.Show("Please eneter a valid radius command"); }
                 if (result[0] == "widtherror")
-                { MessageBox.Show("Please eneter a calid width"); }
+                { MessageBox.Show("Please eneter a valid width"); }
                 if (result[0] == "heighterror")
                 { MessageBox.Show("Please enter valid height command"); }
             }
